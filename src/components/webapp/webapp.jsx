@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 
 import './webapp.css';
 import Main from '../main';
+import FindTraveller from '../findtraveller';
 
 export default class WebApp extends Component {
 
@@ -10,8 +11,8 @@ export default class WebApp extends Component {
         return (
             <React.Fragment>
                 <Switch>
-                <Main />
                     <Route path="/packntag" component={Main} />
+                    <Route path="/serach-to-traveller" component={FindTraveller} />
                 </Switch>
             </React.Fragment>
         );

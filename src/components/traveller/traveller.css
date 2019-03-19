@@ -1,0 +1,18 @@
+.container-traveller {
+    position: relative;
+
+}
+
+.logo-txt {
+    text-align: center;
+}
+
+.form {
+    height: 40px;
+    width: 50%;
+}
+
+.txt-contain {
+    margin: 12px;
+    text-align: center;
+}

@@ -29,16 +29,12 @@
 }
 
 .traveller-container {
-    display: inline-flex;
-    position: absolute;
-    height: 100%; 
-    width: 100%;
-    overflow: hidden;
-}
-
-.traveller-body {
-    top: 30%;
-    left: 30%;
     z-index: 1000;
     position: absolute;
+    text-align: center;
+    height: 100px;
+    width: 30%;
+    display: block;
+    top: 30%;
+    left: 30%;
 }

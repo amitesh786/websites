@@ -20,8 +20,14 @@ export default class Main extends Component {
                 <div className="header-container">
                     <Header />
                 </div>                
-                <div>
-                    <Traveller />
+                <div className="traveller-container">
+                    <div className="bg-traveller">
+                        <img src={require('../../img/bg-logo.png')} />
+                    </div>
+                    <div className="traveller-body">
+                        <Traveller />
+                    </div>
+                    
                 </div>
                 <div className="container-footer">
                     <Footer />

@@ -59,10 +59,29 @@ nav.u-reset, ol.u-reset, ul.u-reset {
     position: relative;
     display: inline-block;
     padding: 0 12px;
-    line-height: 1;
+    /* line-height: 1; */
 }
 
 .item a{
     display: inline-block;
     vertical-align: middle;
+}
+
+.faSearch {
+    color: #337ab7;
+}
+
+.faPlusCircle {
+    color: #337ab7;
+}
+
+a:focus, a:hover {
+    color: #337ab7;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fa-logo {
+    text-decoration: none;
+    cursor: pointer;
 }

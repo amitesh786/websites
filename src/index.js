@@ -9,12 +9,10 @@ import './css/index.css';
 import WebApp from './components/webapp';
 
 window.addEventListener("load", () => {
-    
     ReactDOM.render(
         <Router>
             <WebApp />
-        </Router>,
-        document.getElementById('app'));
+        </Router>, document.getElementById('app'));
 });
 
 serviceWorker.unregister();
