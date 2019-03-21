@@ -28,14 +28,6 @@
     background-size: cover;
 }
 
-.traveller-container {
-    display: inline-flex;
-    position: absolute;
-    height: 100%; 
-    width: 100%;
-    overflow: hidden;
-}
-
 .traveller-body {
     top: 30%;
     left: 30%;

@@ -30,7 +30,6 @@
 
 .traveller-container {
     z-index: 1000;
-    position: absolute;
     text-align: center;
     height: 100px;
     width: 30%;

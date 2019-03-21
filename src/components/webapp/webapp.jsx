@@ -11,6 +11,7 @@ export default class WebApp extends Component {
         return (
             <React.Fragment>
                 <Switch>
+                    <Route exact path="/" component={Main} />
                     <Route path="/packntag" component={Main} />
                     <Route path="/serach-to-traveller" component={FindTraveller} />
                 </Switch>

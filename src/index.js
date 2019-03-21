@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
+// import 'Bootstrap/dist/css/Bootstrap';
 import "./css/bootstrap.min.css";
 import './css/index.css';
 
