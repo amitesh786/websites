@@ -35,20 +35,20 @@ export default class Header extends Component {
                                     </a>
                                 </li>
                                 <li className="item">
-                                    <a href="#">{' '}
+                                    <a href="/offer">{' '}
                                         <FontAwesomeIcon className="faPlusCircle" icon={faPlusCircle} /> {' '}
                                         {' '} Offer
                                     </a>
                                 </li>
 
                                 <li className="item">
-                                    <a href="#">{' '}
+                                    <a href="/signin">{' '}
                                         {' '} Signin
                                     </a>
                                 </li>
 
                                 <li className="item">
-                                    <a href="#">{' '}
+                                    <a href="/login">{' '}
                                         {' '} Login
                                     </a>
                                 </li>
